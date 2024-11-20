@@ -20,4 +20,4 @@ Adobe InDesign plugin that assists users in creating accessible documents.
 
 ## Credits
 
-Thanks for the discussion, feedback and input (in alphabetical order): [Rainer Klute](https://klute.io/), [Klaas Posselt](https://einmanncombo.de/), [Christoph Steffens](https://www.satzkiste.de/) You could turn to them if you need help with the creation of accessible documents.
+Thanks for the discussion, feedback and input (in alphabetical order): [Rainer Klute](https://klute.io/), [Klaas Posselt](https://einmanncombo.de/), [Christoph Steffens](https://www.satzkiste.de/) You can contact them if you need additional help with the creation of accessible documents.
