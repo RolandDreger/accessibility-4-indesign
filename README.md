@@ -10,7 +10,7 @@ Adobe InDesign plugin that assists users in creating accessible documents.
 ## Report
 
 ### Metadata
-[Preview on vimeo](https://vimeo.com/1036508410))
+[Preview on vimeo](https://vimeo.com/1036508410)
 
 ### Images
 [Preview on vimeo](https://vimeo.com/1031495125)
