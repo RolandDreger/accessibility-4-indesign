@@ -18,6 +18,12 @@ Adobe InDesign plugin that assists users in creating accessible documents.
 ### Export Tags
 [Preview on vimeo](https://vimeo.com/1036510247)
 
+### Articles
+
+#### Heading structure
+
+### Hyperlinks
+
 ### Export as PDF
 
 ## Ask
