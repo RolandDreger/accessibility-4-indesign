@@ -1,0 +1,38 @@
+
+# Accessibility-4-InDesign
+Adobe InDesign-Plugin zur Unterstützung bei der Erstellung von barrierefreien Dokumenten.
+
+Accessibility-4-InDesign besteht derzeit aus zwei (unabhängigen) Plugins: einem Report-Panel (mit integriertem Fragebereich) und einem Alt-Text-Panel. Ein Plugin für die Kontrastüberprüfung ist in Planung. Die Panels sollen eine einfache Hilfestellung bieten, um Probleme im Zusammenhang mit Barrierefreiheit zu ermitteln und zu lösen.  
+
+Einige spezielle Probleme, die nicht mit Bordmitteln von InDesign gelöst werden können, müssen allerdings weiterhin in Acrobat oder mittels dafür spezialisierter Erweiterungen umgesetzt werden - wie etwa das Taggen von komplexen Tabellen.
+
+## Report
+
+Der Report listet fehlende Einträge sowie mögliche Probleme während der Erstellung eines InDesign-Dokumentes auf. Als eine Art Checkliste hilft der Report, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten. Das Ergebnis kann als PDF-Datei exportiert werden.
+
+### Metadate
+[Vorschau auf vimeo](https://vimeo.com/1036508410)
+
+### Bilder
+[Vorschau auf vimeo](https://vimeo.com/1031495125)
+
+### Export-Tags
+[Vorschau auf vimeo](https://vimeo.com/1036510247)
+
+### Artikel
+
+#### Überschriftenstruktur
+
+### Hyperlinks
+
+### Export als PDF
+
+## Fragen
+
+## Einstellungen
+
+# Alternativer Text
+
+[Vorschau auf vimeo.](https://vimeo.com/1026952093)
+
+# Kontrast-Checker
