@@ -1,5 +1,5 @@
 # Accessibility-4-InDesign
-Adobe InDesign plugin that assists users in creating accessible documents.
+**Adobe InDesign plugin that assists users in creating accessible documents.**
 
 Accessibility-4-InDesign currently includes two (independent) plugins: a report panel (with integrated question area) and an alt-text panel. A plugin for contrast checking is currently being planned. The panels are intended to provide simple assistance in identifying and solving accessibility-related problems. 
 
