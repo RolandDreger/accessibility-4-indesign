@@ -6,6 +6,12 @@ Accessibility-4-InDesign besteht derzeit aus zwei (unabhängigen) Plugins: einem
 
 Einige spezielle Probleme, die nicht mit Bordmitteln von InDesign gelöst werden können, müssen allerdings weiterhin in Acrobat oder mittels dafür spezialisierter Erweiterungen umgesetzt werden - wie etwa das Taggen von komplexen Tabellen.
 
+## Grenzen der automatisierten Prüfung
+
+Automatisierte Prüfungen können nur einen kleinen Teil der Barrierefreiheit digitaler Inhalte abdecken. Auch wenn im Report des Plugins keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein aus InDesign exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (praktische Barrierefreiheit, WCAG-Compliance) Eine manuelle, auf die Zielpersonen abgestimmte Prüfung ist darüber hinaus jedenfalls angeraten.
+
+# Dokumentation
+
 ## Report
 
 Der Report listet fehlende Einträge sowie mögliche Probleme während der Erstellung eines InDesign-Dokumentes auf. Als eine Art Checkliste hilft der Report, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten. Das Ergebnis kann als PDF-Datei exportiert werden.
