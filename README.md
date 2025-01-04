@@ -5,6 +5,11 @@ Accessibility-4-InDesign currently includes two (independent) plugins: a report 
 
 However, some special problems that cannot be solved with InDesigns built-in tools must still be handled in Acrobat or using specialized extensions - such as tagging complex tables.
 
+## Limits of automated checks
+
+Automated checks can only cover a limited part of the accessibility of digital content. Even if no errors or warnings are displayed in the plugin's report, this does not mean that a PDF or ePub exported from lnDesign meets all accessibility requirements. (practical accessibility, WCAG compliance) A manual check tailored to the target persons is always recommended.
+
+# Documentation
 ## Report
 
 The report lists missing entries and possible problems during the creation of an InDesign document. As a kind of checklist, the report helps to keep an eye on the most important accessibility requirements before the PDF or ePub export. The result can be exported as a PDF file. 
