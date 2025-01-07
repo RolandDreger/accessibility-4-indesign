@@ -16,16 +16,17 @@ Automatisierte Prüfungen können nur einen kleinen Teil der Barrierefreiheit di
 
 Der Report listet fehlende Einträge sowie mögliche Probleme während der Erstellung eines InDesign-Dokumentes auf. Als eine Art Checkliste hilft der Report, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten. Das Ergebnis kann als PDF-Datei exportiert werden.
 
-### Metadate
-[Vorschau auf vimeo](https://vimeo.com/1036508410)
+### Metadaten
+[Vorschau des Metadaten-Reports auf vimeo](https://vimeo.com/1036508410)
 
 ### Bilder
-[Vorschau auf vimeo](https://vimeo.com/1031495125)
+[Vorschau des Bild-Reports auf vimeo](https://vimeo.com/1031495125)
 
 ### Export-Tags
-[Vorschau auf vimeo](https://vimeo.com/1036510247)
+[Vorschau des Export-Tag-Report auf vimeo](https://vimeo.com/1036510247)
 
 ### Artikel
+[Vorschau des Artikel-Reports auf vimeo](https://vimeo.com/1044736860)
 
 #### Überschriftenstruktur
 
@@ -39,6 +40,6 @@ Der Report listet fehlende Einträge sowie mögliche Probleme während der Erste
 
 # Alternativer Text
 
-[Vorschau auf vimeo.](https://vimeo.com/1026952093)
+[Vorschau der Alt-Text-Erstellung auf vimeo.](https://vimeo.com/1026952093)
 
 # Kontrast-Checker
