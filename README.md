@@ -15,15 +15,16 @@ Automated checks can only cover a limited part of the accessibility of digital c
 The report lists missing entries and possible problems during the creation of an InDesign document. As a kind of checklist, the report helps to keep an eye on the most important accessibility requirements before the PDF or ePub export. The result can be exported as a PDF file. 
 
 ### Metadata
-[Preview on vimeo](https://vimeo.com/1036508410)
+[Preview of metadata report on vimeo](https://vimeo.com/1036508410)
 
 ### Images
-[Preview on vimeo](https://vimeo.com/1031495125)
+[Preview of image report on vimeo](https://vimeo.com/1031495125)
 
 ### Export Tags
-[Preview on vimeo](https://vimeo.com/1036510247)
+[Preview of export tag report on vimeo](https://vimeo.com/1036510247)
 
 ### Articles
+[Preview of articles report on vimeo](https://vimeo.com/1044736860)
 
 #### Heading structure
 
@@ -37,7 +38,7 @@ The report lists missing entries and possible problems during the creation of an
 
 # Alternativer Text
 
-[Preview on vimeo.](https://vimeo.com/1026952093)
+[Preview alt-text generation on vimeo](https://vimeo.com/1026952093)
 
 # Contrast Checker
 
