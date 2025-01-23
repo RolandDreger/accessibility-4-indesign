@@ -40,13 +40,18 @@ h1, h2, h3, h4, h5, p {
 
 
 /* Brevo form */
-#sib-form {
+#sib-form-group {
 	position: relative;
 	padding: 0;
 }
 
 #sib-container {
 	background-color: transparent;
+}
+
+#sib-form {
+	position: relative;
+	padding: 0;
 }
 
 #sib-container .entry__label {
