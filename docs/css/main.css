@@ -1,6 +1,7 @@
 /* Set core root defaults */
 html {
   height: 100%;
+	--text-max-width: 70ch;
 }
 
 /* Set core body defaults */
@@ -47,12 +48,23 @@ h1, h2, h3, h4, h5, p {
 	padding: 0;
 }
 
+#sib-form-group .entry__error.entry__error--primary {
+	font-size:16px; 
+	text-align:left; 
+	font-family:sans-serif; 
+	color:#661d1d; 
+	background-color:#ffeded; 
+	border-radius:3px; 
+	border-color:#ff4949;
+}
+
 #sib-form-container {
 	grid-area: form;
 	position: relative;
 }
 
 #sib-container {
+	max-width: var(--text-max-width);
 	background-color: transparent;
 }
 
@@ -61,14 +73,26 @@ h1, h2, h3, h4, h5, p {
 	padding: 0;
 }
 
+#sib-container { 
+	border-radius:3px; 
+	border-color:#ff4949;
+	max-width: var(--text-max-width);
+}
+
+
 #sib-container .entry__label {
 	margin-bottom: 0;
 }
 
+#sib-container .entry__specification {
+	color: #333333;
+}
+
 #underlay {
 	grid-area: form;
-	background-color: rgba(255, 255, 255, 1); 
-	box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.5);
+	background-color: rgba(255, 255, 255, 0.47);
+  box-shadow: rgba(128, 128, 128, 0.5) 0px 0px 15px;
+  backdrop-filter: blur(17px);
 }
 
 #image-caption {
@@ -107,7 +131,7 @@ h1, h2, h3, h4, h5, p {
 
 #main-footer > * {
 	margin: auto;
-	max-width: 60ch;
+	max-width: var(--text-max-width);
 }
 
 
