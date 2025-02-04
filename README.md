@@ -31,6 +31,7 @@ The report lists missing entries and possible problems during the creation of an
 ### Hyperlinks
 
 ### Export as PDF
+[Preview of PDF export](https://vimeo.com/1053449077)
 
 ## Ask
 
