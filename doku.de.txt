@@ -33,6 +33,7 @@ Der Report listet fehlende Einträge sowie mögliche Probleme während der Erste
 ### Hyperlinks
 
 ### Export als PDF
+[Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
 
 ## Fragen
 
