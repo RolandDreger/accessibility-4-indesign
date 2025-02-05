@@ -7,8 +7,8 @@ However, some specific problems that cannot be solved with the built-in tools in
 
 ## Dokumentation
 
-- [Accessibility-4-InDesign](./accessibility-4-indesign/accessibility-4-indesign)
-- [ALT-Text-4-InDesign](./accessibility-4-indesign/alt-text-4-indesign)
+- [Accessibility-4-InDesign](./accessibility-4-indesign)
+- [ALT-Text-4-InDesign](./alt-text-4-indesign)
 
 ## Stay up to date
 
