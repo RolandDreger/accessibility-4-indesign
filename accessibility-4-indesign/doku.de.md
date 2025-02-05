@@ -95,7 +95,7 @@ Unter den Antworten wird die Quelle genannt, mit deren Hilfe deine Frage beantwo
 
 Im Reiter `Einstellungen` kann der Lizenzschlüssel eingegeben werden, den du beim Kauf des Plug-ins erhalten hast.
 
-## Grenzen von Plug-in und von InDesign
+## Grenzen von Plug-in und InDesign
 
 Derzeit können nicht immer alle Anforderungen an ein barrierefreies Dokument mit Bordmitteln von InDesign erfüllt werden – wie etwa das Taggen von komplexen Tabellen. Dies muss entweder mittels dafür spezialisierter Erweiterungen oder nach dem Export (in Adobe Acrobat oder einem ePub-Editor) durchgeführt werden.
 
