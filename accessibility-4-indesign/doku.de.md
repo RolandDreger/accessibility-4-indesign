@@ -25,7 +25,7 @@ Beim ersten Erstellen des Bild-Reports werden die Bilder in den Plugin-Speicher 
 
 **Hinweis**: Wenn du mit XML arbeitest, kann es zu einer fehlerhaften Zuordnung von Tags im exportieren PDF kommen. Diese Problemstellen sind automatisiert leider nicht zu ermitteln.[^1]
 
-[^1] Bug report: [Before tag and after untag frame with different behavior](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/49266116)
+[^1]: Bug report: [Before tag and after untag frame with different behavior](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/49266116)
 
 ### Export-Tags
 Der Tag-Report listet alle *Tags* (PDF-Tagstruktur, ePub-HTML-Elementnamen) für im InDesign-Dokument vorhandenen Zeichen-, Absatz- und Objektformate auf. Zudem wird in der Tabelle die zugewiesene Sprache angezeigt.
