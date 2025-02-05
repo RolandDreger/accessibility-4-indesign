@@ -1,23 +1,13 @@
 
-# Accessibility-4-InDesign
+# Accessibility-4-InDesign – Dokumentation
 
-Das Plug-in *Accessibility-4-InDesign* soll eine einfache Hilfestellung bieten, um Probleme zu ermitteln, die bei der Erstellung von barrierefreien Dokumenten *Adobe InDesign* auftreten können.
-
-## Grenzen von Plug-in und von InDesign
-
-Derzeit können nicht immer alle Anforderungen an ein barrierefreies Dokument mit Bordmitteln von InDesign erfüllt werden – wie etwa das Taggen von komplexen Tabellen. Dies muss entweder mittels dafür spezialisierter Erweiterungen oder nach dem Export (in Adobe Acrobat oder einem ePub-Editor) durchgeführt werden.
-
-## Grenzen automatisierter Prüfungen
-
-Automatisierte Prüfungen können nur einen kleinen Teil der Barrierefreiheit digitaler Inhalte abdecken. Auch wenn im Report des Plugins in InDesign keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichwort: praktische Barrierefreiheit, WCAG-Compliance) Die exportierten PDF- und ePub-Dokumente können nach dem Export mit darauf spezialisierten Anwendungen getestet werden. ([PAC](https://pac.pdf-accessibility.org/de), [veraPDF](https://verapdf.org/) [EPUP-Checker (Pagina)](https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/), [EPUBCheck (W3C)](https://www.w3.org/publishing/epubcheck/)) Darüber hinaus ist eine manuelle, auf die Zielpersonen abgestimmte Prüfung jedenfalls angeraten.
-
-# Dokumentation
+Das Plug-in *Accessibility-4-InDesign* soll dir dabei helfen, Probleme bei der Erstellung von barrierefreien Dokumenten mit *Adobe InDesign* zu vermeiden.
 
 ## Report
 
-Der Report listet mögliche Probleme oder fehlende Einträge während der Erstellung eines InDesign-Dokumentes auf. Als eine Art Checkliste kann der Report helfen, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten.
+Der Report listet mögliche Probleme schon während der Erstellung eines InDesign-Dokumentes auf. Als Checkliste kann der Report helfen, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten.
 
-Die einzelnen Abschnitte des Reports können über die zugehörigen Buttons unabhängig voneinander oder über den Button `Alle` gemeinsam erstellt werden. Mit Filtern in den Report-Bereichen kannst du die angezeigten Einträge nach deinen Wünschen eingeschränkt.
+Die einzelnen Abschnitte des Reports können über die zugehörigen Buttons unabhängig voneinander oder über den Button `Alle` gemeinsam erstellt werden. Mittels Filtern in den Report-Bereichen kannst du die angezeigten Einträge nach deinen Wünschen ein- oder ausblenden.
 
 ### Metadaten
 Der Metadaten-Report bietet eine Übersicht über die wichtigsten Metadaten für PDF und ePub. Über die Eingabefelder können die Einträge geändert werden.
@@ -105,7 +95,15 @@ Unter den Antworten wird die Quelle genannt, mit deren Hilfe deine Frage beantwo
 
 Im Reiter `Einstellungen` kann der Lizenzschlüssel eingegeben werden, den du beim Kauf des Plug-ins erhalten hast.
 
-# Bekannte Fehler
+## Grenzen von Plug-in und von InDesign
+
+Derzeit können nicht immer alle Anforderungen an ein barrierefreies Dokument mit Bordmitteln von InDesign erfüllt werden – wie etwa das Taggen von komplexen Tabellen. Dies muss entweder mittels dafür spezialisierter Erweiterungen oder nach dem Export (in Adobe Acrobat oder einem ePub-Editor) durchgeführt werden.
+
+## Grenzen automatisierter Prüfungen
+
+Automatisierte Prüfungen können nur einen kleinen Teil der Barrierefreiheit digitaler Inhalte abdecken. Auch wenn im Report des Plugins in InDesign keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichwort: praktische Barrierefreiheit, WCAG-Compliance) Die exportierten PDF- und ePub-Dokumente können nach dem Export mit darauf spezialisierten Anwendungen getestet werden. ([PAC](https://pac.pdf-accessibility.org/de), [veraPDF](https://verapdf.org/) [EPUP-Checker (Pagina)](https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/), [EPUBCheck (W3C)](https://www.w3.org/publishing/epubcheck/)) Darüber hinaus ist eine manuelle, auf die Zielpersonen abgestimmte Prüfung jedenfalls angeraten.
+
+## Bekannte Fehler
 
 - Links in den Anmerkungen des Assistenten (Tab  `Fragen`) öffnen nicht in einem externen Browser.
 - Alternativtexte für Hyperlinks werden nicht im Report angezeigt.
