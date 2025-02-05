@@ -61,6 +61,22 @@ Der Artikel-Report bietet eine Auflistung aller im InDesign-eigenen Artikelbedie
 
 Die Artikelfunktion in InDesign dient dazu, die Reihenfolge der Tag-Struktur von Inhalten in einem Dokument festzulegen. Im Artikelbedienfeld von InDesign kannst du definieren, welche Inhalte im Dokument getaggt werden und in welcher Reihenfolge. Damit stellst du sicher, dass die Inhalte in der richtigen Reihenfolge von Screenreader vorgelesen werden.
 
+#### Überschriften
+
+Die Überschriftenebenen werden über alle Artikel hinweg kontrolliert – in der Reihenfolge, in der diese (und ihre Objekte) im Artikelbedienfeld eingetragen sind.
+
+##### Fehler und Warnungen für PDFs: 
+
+- Keine Überschriften vorhanden.
+- Erste Überschrift nicht auf der ersten Ebene.
+- Übersprungene Überschriftenebene.
+- Unlogische Reihenfolge der Überschriften.
+
+##### Fehler und Warungen für ePubs:
+
+- Keine Überschriften vorhanden.
+- Unlogische Reihenfolge der Überschriften.
+
 #### Artikel ein-/ausblenden
 
 Über das Augen-Icon neben dem Artikelnamen kannst du alle Objkte des Artikels aus und wieder einblenden. Das hilft dir festzustellen, ob auch alle gewünschten Objekte einem der Artikel zugeordnet sind. 

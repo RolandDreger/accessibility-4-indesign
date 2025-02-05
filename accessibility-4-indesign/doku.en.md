@@ -21,6 +21,19 @@ The report lists missing entries and possible problems during the creation of an
 
 #### Heading structure
 
+
+##### Errors and warnings for PDFs: 
+
+- No headings available.
+- First heading not on the first level.
+- Skipped heading level.
+- Illogical heading order.
+
+##### Errors and warnings for ePub:
+
+- No headings available.
+- Illogical heading order.
+
 ### Hyperlinks
 
 ### Export as PDF
