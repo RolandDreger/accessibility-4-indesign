@@ -7,7 +7,7 @@ Das Plug-in *Accessibility-4-InDesign* soll dir bei der Erstellung von barrieref
 
 Der Report listet mögliche Probleme schon während der Erstellung eines InDesign-Dokumentes auf. Als Checkliste kann er helfen, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten.
 
-Die einzelnen Abschnitte des Reports können über die zugehörigen Buttons unabhängig voneinander oder über den Button `Alle` gemeinsam erstellt werden. Über die Filter in den Report-Bereichen kannst du die Einträge nach deinen Anforderungen ein- oder ausblenden.
+Die einzelnen Abschnitte des Reports können über die zugehörigen Buttons unabhängig voneinander oder über den Button `Alle` gemeinsam erstellt werden. Über Anwendung der Filter in den Report-Bereichen kannst du die Einträge nach deinen Anforderungen ein- oder ausblenden.
 
 ### Metadaten
 
@@ -33,6 +33,8 @@ Beim ersten Erstellen des Bild-Reports werden die Bilder in den Plugin-Speicher 
 
 Der Tag-Report listet alle *Tags* (PDF-Tagstruktur, ePub-HTML-Elementnamen) für im InDesign-Dokument vorhandenen Zeichen-, Absatz- und Objektformate auf. Zudem wird in der Tabelle für die Textformate die zugewiesene Sprache angezeigt.
 
+[Vorschau des Export-Tag-Report auf vimeo](https://vimeo.com/1036510247)
+
 In barrierefreien Dokumenten werden Tags verwendet, um eine logische Struktur der Inhalte zu schaffen. Diese Tags bestimmen die Rolle eines Objekts, wie z.B. eine Überschrift, einen Absatz oder eine Abbildung. Dies ermöglicht Screenreader und anderen assistiven Technologien, die Inhalte korrekt zu interpretieren und wiederzugeben. Die Tag-Struktur ist eine zusätzliche Ebene der Dokumentenstruktur, die über die visuelle Darstellung hinausgeht. 
 
 In InDesign kannst du die Tags für ePub/HTML und PDF in den Formatvorlagen (Zeichenformate, Absatzformate, Objektformate) unter dem Punkt `Tagexport` festlegen. Wird hier keine Auswahl getroffen, erfolgt die Zuordnung automatisch. Diese von InDesign **automatisch vergebenen Tag-Namen** stehen im Report **in eckigen Klammern.** Wenn in der Tabelle hier mehr als ein Tag-Name angezeigt wird, hängt der zugewiesen Tag zudem von den getroffenen Einstellungen beim Export ab.
@@ -46,8 +48,6 @@ Die Hervorhebung erfolgt dabei über bedingten Text: Fenster → Schrift und Tab
 Durch erneutes Klicken auf das Highlight-Icon in der Tabellen-Zeile kannst du die Hervorhebung wieder entfernen. Willst du **alle Hinterlegungen für einen Formattype entfernen,** kannst du das erste **Highlight-Icon im Tabellenkopf** anklicken.
 
 **Hinweis:** Wird im InDesign-Dokument mit **»Bedingtem Text«** gearbeitet, können durch Klicken auf das Highlight-Icon diese Bedingung von den hervorgehobenen Textstellen entfernt werden. Wenn die Anwendung von Textbedingung also für dein Dokument wichtig ist, diese Funktion bitte **nicht verwenden**.
-
-[Vorschau des Export-Tag-Report auf vimeo](https://vimeo.com/1036510247)
 
 ### Artikel
 
