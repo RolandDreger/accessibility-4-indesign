@@ -124,5 +124,5 @@ Automated checks can only cover part of the accessibility of digital content. Ev
 - Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
 - Alternate texts for hyperlinks are not displayed in the report[^3].
 
-[^2] [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
-[^3] [Add alternate text for hyperlinks ](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/44895820-add-alternate-text-for-hyperlinks)
+[^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
+[^3]: [Add alternate text for hyperlinks ](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/44895820-add-alternate-text-for-hyperlinks)
