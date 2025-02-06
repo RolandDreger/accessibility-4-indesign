@@ -1,7 +1,7 @@
 
 # Accessibility-4-InDesign – Dokumentation
 
-Das Plug-in *Accessibility-4-InDesign* soll dir bei der Erstellung von barrierefreien Dokumenten mit *Adobe InDesign* helfen, Probleme frühzeitig zu erkennen und zu beheben.
+Das Plug-in *Accessibility-4-InDesign* soll dir dabei helfen, barrierefreie Dokumente mit *Adobe InDesign* zu erstellen, und dabei Probleme frühzeitig zu erkennen.
 
 ## Report
 
