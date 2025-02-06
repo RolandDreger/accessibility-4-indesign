@@ -1,5 +1,4 @@
 # Accessibility-4-InDesign
-**Adobe InDesign plugin that assists users in creating accessible documents.**
 
 The *Accessibility-4-InDesign* plug-in is designed to help you identify and resolve problems at an early stage when creating accessible documents with *Adobe InDesign*.
 
