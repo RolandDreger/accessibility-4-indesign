@@ -93,7 +93,7 @@ Das Ergebnis des Reports kann als PDF-Datei exportiert werden. Dabei werden nur 
 
 ## Fragen
 
-Im Reiter `Fragen` findest du einen Assistenten, der dir auf Fragen zum Thema Barrierefreiheit antwortet. Du kannst aber auch Fragen zur Bedienung von InDesign und Acrobat stellen. Der Assistent basiert auf einem Large Language Model (LLM) von OpenAI. Sprachmodelle können Fehler machen. Überprüfe deshalb wichtige Informationen und gib keine sensiblen Daten ein, etwa keine personenbezogenen Daten.
+Im Reiter `Fragen` findest du einen Assistenten, der dir auf Fragen zum Thema Barrierefreiheit antwortet. Du kannst aber auch Fragen zur Bedienung von InDesign und Acrobat stellen. Der Assistent basiert auf einem Large Language Model (LLM) von OpenAI. Sprachmodelle können Fehler machen. Überprüfe deshalb wichtige Informationen und gib keine sensiblen Daten ein, beispielsweise keine personenbezogenen oder vertraulichen Daten.
 
 Unter den Antworten des Assistenten werden jeweils die Quellen genannt, die als Grundlage für die Beantwortung herangezogen wurden. Über die Links findest du weitere Informationen zum Thema. Wird kein URL angezeigt, beruht die Information auf den eigenen Daten des Plugins (oder der Assistent hat Mist gebaut).
 
