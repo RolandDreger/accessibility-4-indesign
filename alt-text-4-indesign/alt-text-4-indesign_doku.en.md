@@ -2,6 +2,8 @@
 
 The *Alt-text-4-InDesign* plug-in is designed to help you create alternative texts for images and graphics in *Adobe InDesign*.
 
+## Alternate Text
+
 Alternative text, also known as ALT text, is an essential component of accessible documents. It is used to describe non-textual content such as images or graphics and can be read and reproduced by assistive technologies such as screen readers.
 
 If an image is selected in the open InDesign document, the plugin reads the alternate text from the object export options. (Object → Object export options ... → Alternate text) If a text is available, it is displayed in the `Images` tab of the plugin panel in the top input field. You can also change the alternative text directly via the input field for the selected object.
