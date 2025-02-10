@@ -90,6 +90,12 @@ The result of the report can be exported as a PDF file. Only those sections and 
 
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
 
+### The PDF is not shown?
+
+The PDF report is opened in the standard application in which it would also have been opened by double-clicking via the file browser. If the PDF file is not displayed on Windows, it can also be found via the following folder paths:
+
+c:\Users\<YOUR USERNAME>\AppData\Local\Temp\Adobe\UXP\PluginsStorage\IDSN\20\Developer\adobe.indesign.accessibility4indesign\PluginData
+
 ## Ask
 
 In the `Questions` tab, you will find a assistant that will answer your questions about accessibility. You can also ask about the use of InDesign and Acrobat. The assistant is based on a Large Language Model (LLM) from OpenAI. Language models can make mistakes. Therefore, check important information and do not enter any sensitive data, such as personal data.
