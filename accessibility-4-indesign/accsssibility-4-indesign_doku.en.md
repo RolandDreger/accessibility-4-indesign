@@ -88,13 +88,13 @@ The text report points out possible problems in relation to text. The following 
 
 The result of the report can be exported as a PDF file. Only those sections and entries that are visible in the panel are exported. This allows you to control exactly which information is to be included in the exported PDF by showing/hiding the sections and applying filters.
 
+The generated PDF for the report is saved in the plugin's temporary folder by default and then automatically opened in your standard PDF application. Alternatively, you can select the `Open save dialog` option in the plugin settings. This allows you to select an individual storage location for the PDF file.
+
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
 
-### The PDF is not shown?
+#### The PDF is not shown after the export?
 
-The PDF report is opened in the standard application in which it would also have been opened by double-clicking via the file browser. If the PDF file is not displayed on Windows, it can also be found via the following folder paths:
-
-c:\Users\<YOUR USERNAME>\AppData\Local\Temp\Adobe\UXP\PluginsStorage\IDSN\20\Developer\adobe.indesign.accessibility4indesign\PluginData
+The PDF report is opened in the standard application in which it would have been opened by double-clicking in the file browser. If the PDF file is not displayed under Windows, you can select the 'Open save dialog' option in the plugin settings instead. This allows you to select an individual storage location for the report.
 
 ## Ask
 
@@ -103,8 +103,19 @@ In the `Questions` tab, you will find a assistant that will answer your question
 The sources that were used as the basis for the answer are listed below each of the assistant's answers. Use the links to find further information on the topic. If no URL is displayed, the information is based on the plugin's own data (or the assistant has messed up).
 
 ## Settings
+### License Key
 
 In the `Settings` tab, you can enter the license key that you got when you purchased the plug-in.
+
+### Report
+#### Export
+
+A document title and the name of the creator can be entered for the exported report.
+
+Option `Open save dialog`: Here you can specify whether a selection dialog for the storage location of the PDF file of the exported report should be displayed. By default, the temporary folder of the plugin is preselected as the storage location.
+
+Option `Show PDF after export`: With this option you determine whether the PDF is opened in your default application after exporting the report. (The default application is the application in which a PDF file is opened by double-clicking in the file browser).
+
 
 ## Limitations of plug-in and InDesignn
 

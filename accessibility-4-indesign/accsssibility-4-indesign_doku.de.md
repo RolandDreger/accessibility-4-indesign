@@ -89,13 +89,13 @@ Im Text-Report wird auf mögliche Probleme im Zusammenhang mit Text hingewiesen.
 
 Das Ergebnis des Reports kann als PDF-Datei exportiert werden. Dabei werden nur jene Abschnitte und Einträge exportiert, die auch im Panel sichtbar sind. Somit kannst du über das Ein-/Ausblenden der Abschnitte und über die Filter genau steuern, welche Information in das exportierte PDF übernommen werden sollen.
 
+Das generierte PDF für den Report wird standardmäßig im temporären Ordner des Plugins gespeichert und danach in deiner Standard-Anwendung für PDFs automatisch geöffnet. Alternativ kann in den Einstellungen des Plugins die Option `Speichern-Dialog öffnen` gewählt werden. Damit kannst du einen individuellen Speicherort für die PDF-Datei auswählen.
+
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
 
-#### Das PDF wird nicht angezeigt?
+#### Das PDF wird nach dem Export nicht angezeigt?
 
-Der PDF-Report wird in der Standard-Anwendung geöffnet, in der sie auch via Doppelklick über den Dateibrowser geöffnet worden wäre. Sollte die PDF-Datei unter Windows nicht angezeigt werden, ist sie auch über folgendem Ordnerpfad zu finden: 
-
-c:\Users\<DEIN BENUTZERNAME>\AppData\Local\Temp\Adobe\UXP\PluginsStorage\IDSN\20\Developer\adobe.indesign.accessibility4indesign\PluginData
+Der PDF-Report wird in der Standard-Anwendung geöffnet, in der diese auch via Doppelklick über den Dateibrowser geöffnet worden wäre. Sollte die PDF-Datei unter Windows nicht angezeigt werden, kann stattdessen in den Einstellungen des Plugins, die Option `Speichern-Dialog öffnen` gewählt werden. Damit kannst du einen individuellen Speicherort für den Report auswählen. 
 
 ## Fragen
 
@@ -104,8 +104,19 @@ Im Reiter `Fragen` findest du einen Assistenten, der dir auf Fragen zum Thema Ba
 Unter den Antworten des Assistenten werden jeweils die Quellen genannt, die als Grundlage für die Beantwortung herangezogen wurden. Über die Links findest du weitere Informationen zum Thema. Wird kein URL angezeigt, beruht die Information auf den eigenen Daten des Plugins (oder der Assistent hat Mist gebaut).
 
 ## Einstellungen
+### Lizenzschlüssel
 
 Im Reiter `Einstellungen` kann der Lizenzschlüssel eingegeben werden, den du beim Kauf des Plug-ins erhalten hast.
+
+### Report
+#### Export
+
+Für den exportieren Report kann ein Dokument-Titel und der Name der Erstellerin, des Erstellers eingetragen werden.
+
+Option `Speichern-Dialog öffnen`: Hier kannst du festlegen, ob ein Auswahldialog für den Speicherort der PDF-Datei des exportierten Reports angezeigt werden soll. Standardmäßig ist als Speicherort der temporären Ordner des Plugins vorausgewählt.
+
+Option `PDF nach Export anzeigen`: Mit dieser Option legst du fest, ob das PDF nach dem Export des Reports in deiner Standard-Anwendung geöffnet wird. (Die Standard-Anwendung ist jene Anwendung, in der eine PDF-Datei via Doppelklick über den Dateibrowser geöffnet wird.)
+
 
 ## Grenzen von Plug-in und InDesign
 
