@@ -29,6 +29,23 @@ Beim ersten Erstellen des Bild-Reports werden die Bilder in den Plugin-Speicher 
 
 [^1]: Bug report: [Before tag and after untag frame with different behavior](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/49266116)
 
+#### Welche Objekte werden im Bild-Report gelistet?
+
+Im Bild-Report werden jene Objekte gelistet, die zu einem Eintrag für alternativen oder tatsächlichen Text im exportieren PDF bzw. ePub führen. 
+
+PDF 
+- Attribut *ALT* im <Tag>-Element (Adobe Acrobat: *Alternativtext für Bilder*) 
+- Attribut *ActualText* im <Tag>-Element (Adobe Acrobat: *Originaltext*)
+
+ePub
+- Attribut *alt* im <img>-Element
+
+#### Warum gibt es hier einen Filter für PDF und ePub?
+
+Da sich hier in einigen Fällen der PDF- und ePub-Export unterschiedlich verhält. Beispiel gruppierte Elemente: Trägst du für eine Gruppe im InDesign-Dokument einen alternativen Text ein, wird dieser dem <Tag>-Element im exportierten PDF zugewiesen. Die alternativen Texte der einzelnen Gruppen-Elemente gehen hingegen verloren. Umgekehrt verhält es sich beim ePub-Export. Hier wird der Alternativtext der Gruppe ignoriert und jene der Gruppen-Elemente werden in die ALT-Attribute übernommen. 
+
+Um leichter den Überblick zu bewahren, werden nur jene Objekte im Bild-Report gelistet, die auch zu einem Eintrag für alternativen oder tatsächlichen Text führen. Zudem kannst du über die Filterfunktion auswählen, welche für dich relevant sind – je nachdem, ob du ein PDF oder ePub exportierst. 
+
 ### Export-Tags
 
 Der Tag-Report listet alle *Tags* (PDF-Tagstruktur, ePub-HTML-Elementnamen) für im InDesign-Dokument vorhandenen Zeichen-, Absatz- und Objektformate auf. Zudem wird in der Tabelle für die Textformate die zugewiesene Sprache angezeigt.
@@ -92,6 +109,8 @@ Das Ergebnis des Reports kann als PDF-Datei exportiert werden. Dabei werden nur 
 Das generierte PDF für den Report wird standardmäßig im temporären Ordner des Plugins gespeichert und danach in deiner Standard-Anwendung für PDFs automatisch geöffnet. Alternativ kann in den Einstellungen des Plugins die Option `Speichern-Dialog öffnen` gewählt werden. Damit kannst du einen individuellen Speicherort für die PDF-Datei auswählen.
 
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
+
+Für die Erstellung des Report-PDFs wird die [Adobe PDF Services API verwendet](https://developer.adobe.com/document-services/).
 
 #### Das PDF wird nach dem Export nicht angezeigt?
 

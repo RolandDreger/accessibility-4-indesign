@@ -28,6 +28,25 @@ The first time the image report is created, the images are cached in the plugin 
 
 [^1]: Bug report: [Before tag and after untag frame with different behavior](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/49266116)
 
+#### Which objects are listed in the image report?
+
+The image report lists those objects that result in an entry for alternative or actual text in the exported PDF or ePub. 
+
+PDF 
+- Attribute *ALT* in the “Tag” element (Adobe Acrobat: *Alternate text for images*) 
+- Attribute *ActualText* in the “Tag” element (Adobe Acrobat: *Actual text*)
+
+ePub
+- Attribute *alt* in the “img” element
+
+#### Why is there a filter for PDF and ePub?
+
+Because in some cases the PDF and ePub export behave differently. Example of grouped elements: If you enter an alternate text for a group in the InDesign document, this is added to the “tag” element in the exported PDF. However, the alternate texts of the individual group elements get lost. The opposite is true for ePub exports. Here, the alternate text of the group is ignored and those of the group elements are transferred to the ALT attributes. 
+
+To make it easier to keep an overview, only those objects are listed in the image report that also result in an entry for alternative or actual text. You can additionally use the filter function to select which ones are relevant for you - depending on whether you are exporting a PDF or ePub.
+
+Translated with DeepL.com (free version)
+
 ### Export Tags
 
 The tag report lists all *tags* (PDF tag structure, ePub HTML element names) for character, paragraph and object styles contained in the InDesign document. The assigned language is also displayed in the table for the text styles.
@@ -91,6 +110,8 @@ The result of the report can be exported as a PDF file. Only those sections and 
 The generated PDF for the report is saved in the plugin's temporary folder by default and then automatically opened in your standard PDF application. Alternatively, you can select the `Open save dialog` option in the plugin settings. This allows you to select an individual storage location for the PDF file.
 
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
+
+To create the report PDF, the [Adobe PDF Services API is used](https://developer.adobe.com/document-services/).
 
 #### The PDF is not shown after the export?
 
