@@ -158,6 +158,7 @@ Automated checks can only cover part of the accessibility of digital content. Ev
 
 ## Known issues
 
+- InDesign 2024: Input in text fields does not update the values of the document or object properties. (e.g. metadata of the document)
 - Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
 - Alternate texts for hyperlinks are not displayed in the report[^3].
 

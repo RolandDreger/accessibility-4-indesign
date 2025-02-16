@@ -157,8 +157,12 @@ Automatisierte Prüfungen können nur einen Teil der Barrierefreiheit digitaler 
 
 ## Bekannte Fehler
 
+- InDesign 2024: Eingabe in Textfelder aktualisieren die Werte der Dokument- oder Objekteigenschaften nicht. (z.B. Metadaten des Dokuments) 
 - Links in den Anmerkungen des Assistenten (Tab `Fragen`) öffnen nicht in einem externen Browser.[^2]
 - Alternativtexte für Hyperlinks werden nicht im Report angezeigt.[^3]
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
 [^3]: [Add alternate text for hyperlinks ](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/44895820-add-alternate-text-for-hyperlinks)
+
+
+https://forums.creativeclouddeveloper.com/t/with-indesign-sp-textfield-does-not-trigger-change-event/6769
