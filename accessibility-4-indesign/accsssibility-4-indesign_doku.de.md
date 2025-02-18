@@ -141,7 +141,7 @@ Option `PDF nach Export anzeigen`: Mit dieser Option legst du fest, ob das PDF n
 
 ## Grenzen von Plug-in und InDesign
 
-Derzeit können nicht immer alle Anforderungen an ein barrierefreies Dokument mit Bordmitteln von InDesign erfüllt werden, wie beispielsweise das Taggen von komplexen Tabellen. Dies muss entweder mittels dafür spezialisierter Erweiterungen – z.B. MadeToTag – oder nach dem Export in entsprechenden Anwendungen durchgeführt werden – z.B für PDFs in Adobe Acrobat oder im Falle eines ePubs in einem ePub-Editor.
+Derzeit können nicht immer alle Anforderungen an ein barrierefreies Dokument mit Bordmitteln von InDesign erfüllt werden, wie beispielsweise die Umsetzung von barrierefreien Tabellen im exportierten PDF oder das Setzen des PDF/UA-Markers. Dies muss entweder mittels dafür spezialisierter Erweiterungen – z.B. MadeToTag – oder nach dem Export in entsprechenden Anwendungen durchgeführt werden – z.B für PDFs in Adobe Acrobat oder im Falle eines ePubs in einem ePub-Editor.
 
 Die exportierten PDF- und ePub-Dokumente können nach dem Export mit darauf spezialisierten Anwendungen getestet werden:
 
@@ -155,7 +155,9 @@ Darüber hinaus ist eine manuelle, auf die Zielpersonen abgestimmte Prüfung jed
 
 ## Grenzen automatisierter Prüfung
 
-Automatisierte Prüfungen können nur einen Teil der Barrierefreiheit digitaler Inhalte abdecken. Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichwort: praktische Barrierefreiheit, WCAG-Compliance) 
+Automatisierte Prüfungen können nur einen Teil der Barrierefreiheit digitaler Inhalte abdecken. So können etwa keine sogenannten »Layout-Tabellen« erkannt werden, also Tabellen, die ausschließlich zum Zwecke des Layouts eingesetzt werden – ohne inhaltliche Bedeutung. Oder wenn Informationen ausschließlich durch Farbe kommuniziert werden. Um nur einige Beispiele zu nennen.
+
+Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichworte: praktische Barrierefreiheit, WCAG-Compliance) 
 
 ## Bekannte Fehler
 

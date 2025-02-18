@@ -142,7 +142,7 @@ Option `Show PDF after export`: With this option you determine whether the PDF i
 
 ## Limitations of plug-in and InDesignn
 
-Currently, not all requirements for an accessible document can always be met with InDesign's on-board tools, such as tagging complex tables. This must either be carried out using specialized extensions – e.g. MadeToTag - or after export in corresponding applications – e.g. for PDFs in Adobe Acrobat or, in the case of an ePub, in an ePub editor.
+Currently, not all requirements for an accessible document can be met with InDesign's on-board tools, such as the implementation of accessible tables in the exported PDF or the setting of the PDF/UA marker. This must either be carried out using specialized extensions - e.g. MadeToTag - or after the export in corresponding applications - e.g. for PDFs in Adobe Acrobat or in the case of an ePub in an ePub editor.
 
 The exported PDF and ePub documents can be tested after export with specialized applications:
 
@@ -156,7 +156,9 @@ In addition, a manual check tailored to the target persons is recommended in any
 
 ## Limitations of automated checks
 
-Automated checks can only cover part of the accessibility of digital content. Even if no errors or warnings are displayed in the plugin report in InDesign or the checking tools, this does not mean that an exported PDF or ePub meets all accessibility requirements. (Keyword: practical accessibility, WCAG compliance) 
+Automated checks can only cover some of the accessibility of digital content. For example, it is not possible to identify so-called “layout tables”, i.e. tables that are used solely for the purpose of layout - without any meaning in terms of content. Or when information is communicated only by color. To name just a few examples.
+
+Therefore, even if no errors or warnings are displayed in the plugin report in InDesign or the checking tools, this does not mean that an exported PDF or ePub meets all accessibility requirements. (Keywords: practical accessibility, WCAG compliance)
 
 ## Known issues
 
