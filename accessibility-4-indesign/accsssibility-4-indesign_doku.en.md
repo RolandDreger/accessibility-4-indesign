@@ -152,13 +152,13 @@ The exported PDF and ePub documents can be tested after export with specialized 
 - [EPUP-Checker (Pagina)](https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/)
 - [EPUBCheck (W3C)](https://www.w3.org/publishing/epubcheck/)
 
-In addition, a manual check tailored to the target persons is recommended in any case.
-
 ## Limitations of automated checks
 
 Automated checks can only cover some of the accessibility of digital content. For example, it is not possible to identify so-called “layout tables”, i.e. tables that are used solely for the purpose of layout - without any meaning in terms of content. Or when information is communicated only by color. To name just a few examples.
 
 Therefore, even if no errors or warnings are displayed in the plugin report in InDesign or the checking tools, this does not mean that an exported PDF or ePub meets all accessibility requirements. (Keywords: practical accessibility, WCAG compliance)
+
+A manual check tailored to the target group is recommended in any case.
 
 ## Known issues
 

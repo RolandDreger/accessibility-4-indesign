@@ -151,13 +151,13 @@ Die exportierten PDF- und ePub-Dokumente können nach dem Export mit darauf spez
 - [EPUP-Checker (Pagina)](https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/)
 - [EPUBCheck (W3C)](https://www.w3.org/publishing/epubcheck/)
 
-Darüber hinaus ist eine manuelle, auf die Zielpersonen abgestimmte Prüfung jedenfalls angeraten.
-
 ## Grenzen automatisierter Prüfung
 
 Automatisierte Prüfungen können nur einen Teil der Barrierefreiheit digitaler Inhalte abdecken. So können etwa keine sogenannten »Layout-Tabellen« erkannt werden, also Tabellen, die ausschließlich zum Zwecke des Layouts eingesetzt werden – ohne inhaltliche Bedeutung. Oder wenn Informationen ausschließlich durch Farbe kommuniziert werden. Um nur einige Beispiele zu nennen.
 
-Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichworte: praktische Barrierefreiheit, WCAG-Compliance) 
+Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichworte: praktische Barrierefreiheit, WCAG-Compliance)
+
+Eine manuelle, auf die Zielpersonen abgestimmte Prüfung ist jedenfalls angeraten.
 
 ## Bekannte Fehler
 
