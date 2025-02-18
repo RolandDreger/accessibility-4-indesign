@@ -164,7 +164,5 @@ A manual check tailored to the target group is recommended in any case.
 
 - InDesign 2024: Input in text fields does not update the values of the document or object properties. (e.g. metadata of the document)
 - Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
-- Alternate texts for hyperlinks are not displayed in the report[^3].
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
-[^3]: [Add alternate text for hyperlinks ](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/44895820-add-alternate-text-for-hyperlinks)
