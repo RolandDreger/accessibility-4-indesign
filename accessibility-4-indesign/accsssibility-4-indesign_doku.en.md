@@ -99,6 +99,8 @@ You can use the eye icon next to the article name to hide and show all objects o
 
 Listing of the hyperlinks contained in the InDesign document. The first field shows the text of the hyperlink displayed in the document, the second field shows the target (URL, anchor, page, ...). By clicking on the first field, you can jump directly to the text passages with the hyperlink.
 
+**Note:** For technical reasons, the alternate text for hyperlinks cannot be accessed in InDesign at present. (User interface: Edit hyperlink → Accessibility) However, experts advise against using this anyway. If possible, “speaking names” should be used for hyperlinks instead. This benefits all target groups equally. (For print, these can then be converted into URLs using scripts or CSS).
+
 ### Text
 
 The text report points out possible problems in relation to text. The following also applies here: It is not always possible to clearly identify all problem areas using an automated search, or issues may be found that are not issues at all. Check the issues individually by using the `Search` button to jump to the relevant text passages in the document.

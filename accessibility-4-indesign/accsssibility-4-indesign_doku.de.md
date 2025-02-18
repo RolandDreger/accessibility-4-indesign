@@ -98,6 +98,8 @@ Die Überschriftenebenen werden über alle Artikel hinweg kontrolliert – in de
 
 Auflistung der im InDesign-Dokument enthaltenen Hyperlinks. Im ersten Feld wird der im Dokument angezeigte Text des Hyperlinks angezeigt, im zweiten Feld das hinterleget Ziel (URL, Anker, Seite, ...). Über einen Klick aufs erste Feld kannst du die Textstellen mit dem Hyperlink direkt anspringen.
 
+**Hinweis:**: Aus technischen Gründen kann der Alternativtext für Hyperlinks in InDesign derzeit nicht ausgelesen werden. (Benutzeroberfläche: Hyperlink bearbeiten → Barrierefreiheit) Expert:innen raten aber ohnehin von der Verwendung eher ab. Wenn möglich, sollten stattessen »sprechende Namen« für Hyperlinks verwendet werden. Davon profitieren alle Zielgruppen gleichermaßen. (Für Print können diese dann per Skript oder CSS in URL umwandelt werden.)
+
 ### Text
 
 Im Text-Report wird auf mögliche Probleme im Zusammenhang mit Text hingewiesen. Auch hier gilt: Durch eine automatisierte Suche ist es nicht immer möglich, alle Problemstellen eindeutig zu ermitteln, bzw. werden auch Probleme gefunden, die möglicherweise gar keine sind. Überprüfe die Probleme einzeln, indem du über den Button `Suchen` an die betroffenen Textstellen im Dokument springst.
