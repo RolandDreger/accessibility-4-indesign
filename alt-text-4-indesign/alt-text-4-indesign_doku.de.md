@@ -59,8 +59,8 @@ Zudem wird das so markierte Objekt als dekoratives Element gekennzeichnet. Im ex
 ## Automatisierte Aktionen
 ### Alle verknüpften Bilder
 
-Über die Aktion `Alle verknüpften Bilder` wird allen Verknüpfungen im InDesign-Dokument automatisiert ein alternativer Text zugewiesen. Für die Erstellung der alternativen Texte wird ein Large Language Model (LLM) von OpenAI verwendet. Die Bilder werden dazu über die API-Schnittstelle von OpenAI verarbeitet.
+Über die Aktion `Alle verknüpften Bilder` wird allen Objekten mit Verknüpfungen automatisiert ein alternativer Text zugewiesen. Verarbeitet wird dabei das aktive InDesign-Dokument. Verknüpfungen, deren InDesign-Objekt als dekoratives Bild oder außertextliches Element gekennzeichnet sind, werden dabei übersprungen.
 
-Die Vorgaben für die Erstellungsanweisung (Prompt) und die Zielsprache werden aus den Eingaben im Panel übernommen. Ist das Prompt-Eingabefeld und das Dropdown-Menü für die Sprachauswahl nicht sichtbar, aktiviere die Checkbox `Anweisung für ALT-Text` im Fußbereich des Panels.
+Für die Erstellung der alternativen Texte wird ein Large Language Model (LLM) von OpenAI verwendet. Die Bilder werden dazu über die API-Schnittstelle von OpenAI verarbeitet. Die Vorgaben für die Erstellungsanweisung (Prompt) und die Zielsprache werden aus den Eingaben im Panel übernommen. Ist das Prompt-Eingabefeld und das Dropdown-Menü für die Sprachauswahl nicht sichtbar, aktiviere die Checkbox `Anweisung für ALT-Text` im Fußbereich des Panels.
 
 Im Reiter `Settings` können im Abschnitt `Automatisierte Aktionen` **zusätzliche Einstellungen für die automatisierte ALT-Text-Erstellung** getroffen werden. Hier kannst du etwa festlegen, ob vorhandener alternativer Text überschrieben werden oder vorhandener Text bei der Erstellung als Kontext dienen soll. 

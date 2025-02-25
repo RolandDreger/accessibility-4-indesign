@@ -59,8 +59,8 @@ The object marked in this way is also marked as a decorative element for ePub or
 ## Automated Actions
 ### All linked Images
 
-The `All linked images` action automatically applies an alternate text to all links in the InDesign document. A Large Language Model (LLM) from OpenAI is used to create the alternative texts. The images are processed via the OpenAI API interface.
+The `All linked images` action automatically assigns an alternative text to all objects with links. The active InDesign document is processed. Links whose InDesign object is marked as a decorative image or non-text element are skipped. 
 
-The specifications for the generation instruction (prompt) and the target language are taken from the settings in the panel. If the prompt input field and the drop-down menu for the language selection are not visible, activate the checkbox `Instruction for ALT text` in the footer of the panel.
+A Large Language Model (LLM) from OpenAI is used to create the alternative texts. The images are processed via the OpenAI API interface. The specifications for the generation instruction (prompt) and the target language are taken from the settings in the panel. If the prompt input field and the drop-down menu for the language selection are not visible, activate the checkbox `Instruction for ALT text` in the footer of the panel.
 
 In the `Settings` tab, you can make **additional settings for automated Alt-text generation** in the `Automated actions` section. Here you can specify, for example, whether existing alternative text should be overwritten or whether existing text should be used as a context during generation. 
