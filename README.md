@@ -21,4 +21,6 @@ A license for the plugins can be purchased soon. The license key is then entered
 
 ## Credits
 
-Thanks for the discussion, feedback and input (in alphabetical order): [Rainer Klute](https://klute.io/), [Klaas Posselt](https://einmanncombo.de/), [Christoph Steffens](https://www.satzkiste.de/) You can contact them if you need additional help with the creation of accessible documents.
+Thanks for the discussion, feedback and input to the following persons (in alphabetical order). If you need additional help with the production of accessible documents or training in this area, you can contact them.
+- Austria: [René Andritsch](https://reneandritsch.com/)
+- Germany: [Rainer Klute](https://klute.io/), [Klaas Posselt](https://einmanncombo.de/), [Christoph Steffens](https://www.satzkiste.de/) 
