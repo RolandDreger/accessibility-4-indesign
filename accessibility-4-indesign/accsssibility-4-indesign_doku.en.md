@@ -117,7 +117,7 @@ To create the report PDF, the [Adobe PDF Services API is used](https://developer
 
 #### The PDF is not shown after the export?
 
-The PDF report is opened in the standard application in which it would have been opened by double-clicking in the file browser. If the PDF file is not displayed under Windows, you can select the 'Open save dialog' option in the plugin settings instead. This allows you to select an individual storage location for the report.
+The generated PDF for the report is saved in the plugin folder by default and then automatically opened in your standard PDF application. Alternatively, you can select the InDesign document folder as the storage location or the ‘Open save dialog’ option in the plugin settings. This allows you to select an individual storage location for the report.
 
 ## Ask
 

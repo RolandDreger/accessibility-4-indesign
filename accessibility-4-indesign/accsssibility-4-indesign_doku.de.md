@@ -108,7 +108,7 @@ Im Text-Report wird auf mögliche Probleme im Zusammenhang mit Text hingewiesen.
 
 Das Ergebnis des Reports kann als PDF-Datei exportiert werden. Dabei werden nur jene Abschnitte und Einträge exportiert, die auch im Panel sichtbar sind. Somit kannst du über das Ein-/Ausblenden der Abschnitte und über die Filter genau steuern, welche Information in das exportierte PDF übernommen werden sollen.
 
-Das generierte PDF für den Report wird standardmäßig im temporären Ordner des Plugins gespeichert und danach in deiner Standard-Anwendung für PDFs automatisch geöffnet. Alternativ kann in den Einstellungen des Plugins die Option `Speichern-Dialog öffnen` gewählt werden. Damit kannst du einen individuellen Speicherort für die PDF-Datei auswählen.
+Das generierte PDF für den Report wird standardmäßig im temporären Ordner des Plugins gespeichert und danach in deiner Standard-Anwendung für PDFs automatisch geöffnet. Alternativ kann in den Einstellungen des Plugins als Speicherort der InDesign-Dokumentordner oder die Option `Speichern-Dialog öffnen` gewählt werden. Damit kannst du einen individuellen Speicherort für die PDF-Datei auswählen.
 
 [Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
 
