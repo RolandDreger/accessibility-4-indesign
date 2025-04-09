@@ -160,8 +160,7 @@ Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstool
 Eine manuelle, auf die Zielpersonen abgestimmte Prüfung ist jedenfalls angeraten.
 
 ## Bekannte Fehler
-
-- InDesign 2024: Eingabe in Textfelder aktualisieren die Werte der Dokument- oder Objekteigenschaften nicht. (z.B. Metadaten des Dokuments) 
+ 
 - Links in den Anmerkungen des Assistenten (Tab `Fragen`) öffnen nicht in einem externen Browser.[^2]
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)

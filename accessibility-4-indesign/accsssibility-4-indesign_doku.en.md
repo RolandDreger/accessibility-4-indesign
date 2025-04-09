@@ -162,7 +162,6 @@ A manual check tailored to the target group is recommended in any case.
 
 ## Known issues
 
-- InDesign 2024: Input in text fields does not update the values of the document or object properties. (e.g. metadata of the document)
 - Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
