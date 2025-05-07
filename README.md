@@ -7,7 +7,8 @@ However, some specific problems that cannot be solved with the built-in tools in
 
 ## Documentation
 
-[Accessibility-4-InDesign Documentation](./accessibility-4-indesign)
+- [Accessibility-4-InDesign Documentation (English)](./Documentation/accsssibility-4-indesign_doku.en.md)
+- [Accessibility-4-InDesign Dokumentation (Deutsch)](./Documentation/accsssibility-4-indesign_doku.de.md)
 
 ## Stay up to date
 
