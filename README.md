@@ -12,8 +12,8 @@ However, some specific problems that cannot be solved with the built-in tools in
 
 ## Privacy Policy
 
-- [Accessibility-4-InDesign Privacy Policy (English)](./Documentation/accsssibility-4-indesign_privacy_policy.en.md)
-- [Accessibility-4-InDesign Datenschutz (Deutsch)](./Documentation/accsssibility-4-indesign_privacy_policy.de.md)
+- [Accessibility-4-InDesign Privacy Policy (English)](./Privacy_Policy/accsssibility-4-indesign_privacy_policy.en.md)
+- [Accessibility-4-InDesign Datenschutz (Deutsch)](./Privacy_Policy/accsssibility-4-indesign_privacy_policy.de.md)
 
 ## Support
 
