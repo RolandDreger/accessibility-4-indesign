@@ -7,13 +7,13 @@ However, some specific problems that cannot be solved with the built-in tools in
 
 ## Documentation
 
-- [Accessibility-4-InDesign Documentation (English)](./Documentation/accsssibility-4-indesign_documentation.en.md)
-- [Accessibility-4-InDesign Dokumentation (Deutsch)](./Documentation/accsssibility-4-indesign_documentation.de.md)
+- [Accessibility-4-InDesign Documentation](./Documentation/accsssibility-4-indesign_documentation.en.md) (English)
+- [Accessibility-4-InDesign Dokumentation](./Documentation/accsssibility-4-indesign_documentation.de.md) (Deutsch)
 
 ## Privacy Policy
 
-- [Accessibility-4-InDesign Privacy Policy (English)](./Privacy_Policy/accsssibility-4-indesign_privacy_policy.en.md)
-- [Accessibility-4-InDesign Datenschutz (Deutsch)](./Privacy_Policy/accsssibility-4-indesign_privacy_policy.de.md)
+- [Accessibility-4-InDesign Privacy Policy](./Privacy_Policy/accssibility-4-indesign_privacy_policy.en.md) (English)
+- [Accessibility-4-InDesign Datenschutz](./Privacy_Policy/accssibility-4-indesign_privacy_policy.de.md) (Deutsch)
 
 ## Support
 
