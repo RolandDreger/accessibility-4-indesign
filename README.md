@@ -5,10 +5,9 @@ Accessibility-4-InDesign currently contains two (independent) plugins: a report 
 
 However, some specific problems that cannot be solved with the built-in tools in InDesigns must be fixed in Acrobat, ePub editors or with the help of specialized further extensions. For example, InDesign cannot currently set the PDF/UA marker. Or InDesign has problems with making tables accessible for PDF.
 
-## Dokumentation
+## Documentation
 
-- [Accessibility-4-InDesign](./accessibility-4-indesign)
-- [ALT-Text-4-InDesign](./alt-text-4-indesign)
+[Accessibility-4-InDesign Documentation](./accessibility-4-indesign)
 
 ## Stay up to date
 
