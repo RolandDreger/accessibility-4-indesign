@@ -6,7 +6,7 @@ This privacy policy informs you about the type, scope and purpose of the process
 
 2. Persons responsible
 
-Roland Dreger, Tempelgasse 5, 1020 Vienna, Austria, email: roland.roland.dreger@ik.me is responsible for data processing within the meaning of the General Data Protection Regulation (GDPR). Please direct all data protection inquiries to this contact address.
+Roland Dreger, Tempelgasse 5, 1020 Vienna, Austria, email: roland.dreger@ik.me is responsible for data processing within the meaning of the General Data Protection Regulation (GDPR). Please direct all data protection inquiries to this contact address.
 
 3. Personal data collection
 

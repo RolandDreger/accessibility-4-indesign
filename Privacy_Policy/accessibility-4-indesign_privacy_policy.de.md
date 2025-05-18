@@ -6,7 +6,7 @@ Diese Datenschutzerklärung informiert Sie über Art, Umfang und Zweck der Verar
 
 2. Verantwortlicher
 
-Verantwortlich für die Datenverarbeitung im Sinne der Datenschutzgrundverordnung (DSGVO) ist Roland Dreger, Tempelgasse 5, 1020 Wien, Österreich, E-Mail: roland.roland.dreger@ik.me. Alle datenschutzrechtlichen Anfragen richten Sie bitte an diese Kontaktadresse. 
+Verantwortlich für die Datenverarbeitung im Sinne der Datenschutzgrundverordnung (DSGVO) ist Roland Dreger, Tempelgasse 5, 1020 Wien, Österreich, E-Mail: roland.dreger@ik.me. Alle datenschutzrechtlichen Anfragen richten Sie bitte an diese Kontaktadresse. 
 
 3. Erhobene personenbezogene Daten  
 
