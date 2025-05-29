@@ -3,6 +3,16 @@
 
 Das Plug-in *Accessibility-4-InDesign* soll dir dabei helfen, barrierefreie Dokumente mit *Adobe InDesign* zu erstellen, und dabei Probleme frühzeitig zu erkennen.
 
+## Installation
+
+Die Installation erfolgt über die Adobe Creativ Cloud Anwendung (Stock und Marktplatz) oder [Adobe Exchange](https://exchange.adobe.com/apps/cc/9e463c3e/accessibility-for-indesign). Aktualisierungen können ebenfalls über diese Anwendung eingespielt werden. 
+
+## Lizenz
+
+Bei der über Adobe Exchange (Stock und Marktplatz) erworbenen Lizenz handelt es sich um eine Einzelplatzlizenz. Die Abfragen an das Large Language Model (LLM) von OpenAI und die PDF-Erstellung über Acrobat Services API sind dabei inkludiert. (Fair Use Policy) Anfragen bezüglich einer Enterprise-Lizenz an [roland.dreger@ik.me](mailto:roland.dreger@ik.me).
+
+Der Lizenzschlüssel wird im Reiter `Einstellungen`des Panels eingegeben.
+
 ## Report
 
 Der Report listet mögliche Probleme schon während der Erstellung eines InDesign-Dokumentes auf. Als Checkliste kann er helfen, die wichtigsten Anforderungen an die Barrierefreiheit noch vor dem PDF- oder ePub-Export im Blick zu behalten.
@@ -164,3 +174,7 @@ Eine manuelle, auf die Zielpersonen abgestimmte Prüfung ist jedenfalls angerate
 - Links in den Anmerkungen des Assistenten (Tab `Fragen`) öffnen nicht in einem externen Browser.[^2]
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
+
+## Fragen und Support
+
+[roland.dreger@ik.me](mailto:roland.dreger@ik.me)

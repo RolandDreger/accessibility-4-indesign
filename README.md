@@ -5,6 +5,14 @@ Accessibility-4-InDesign currently contains two (independent) plugins: a report 
 
 However, some specific problems that cannot be solved with the built-in tools in InDesigns must be fixed in Acrobat, ePub editors or with the help of specialized further extensions. For example, InDesign cannot currently set the PDF/UA marker. Or InDesign has problems with making tables accessible for PDF.
 
+## Installation
+
+Installation is done via the Adobe Creative Cloud application (Stock and Marketplace) or [Adobe Exchange](https://exchange.adobe.com/apps/cc/9e463c3e/accessibility-for-indesign). Updates can also be installed via this application.
+
+## License
+
+The license purchased via Adobe Exchange (Stock and Marketplace) is a single user license. Requests to the OpenAI Large Language Model (LLM) and PDF generation via Acrobat Services API are included. (Fair Use Policy) Inquiries regarding an Enterprise license to [roland.dreger@ik.me](mailto:roland.dreger@ik.me). The license key is entered in the `Settings` tab of the panel.
+
 ## Documentation
 
 - [Accessibility-4-InDesign Documentation](./Documentation/accsssibility-4-indesign_documentation.en.md) (English)
@@ -22,11 +30,6 @@ roland.dreger@ik.me
 ## Stay up to date
 
 To take part in the beta test or to stay up to date on the development of the plugins, you can [register on the Accessibility-4-InDesign website](https://rolanddreger.github.io/accessibility-4-indesign/).
-
-
-## License
-
-A license for the plugins can be purchased soon. The license key is then entered in the `Settings` tab.
 
 ## Credits
 
