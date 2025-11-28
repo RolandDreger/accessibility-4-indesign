@@ -59,7 +59,7 @@ Translated with DeepL.com (free version)
 
 ### Export Tags
 
-The tag report lists all *tags* (PDF tag structure, ePub HTML element names) for character, paragraph and object styles contained in the InDesign document. The assigned language is also displayed in the table for the text styles.
+The tag report lists all *tags* (PDF tag structure, ePub HTML element names) for character, paragraph and object styles contained in the InDesign document. The assigned language is also displayed in the table for the text styles. The ARIA role property was added for ePub export in InDesign 2026 (21.0).
 
 [Preview of the export tag report on vimeo](https://vimeo.com/1036510247)
 

@@ -58,7 +58,7 @@ Um leichter den Überblick zu bewahren, werden nur jene Objekte im Bild-Report g
 
 ### Export-Tags
 
-Der Tag-Report listet alle *Tags* (PDF-Tagstruktur, ePub-HTML-Elementnamen) für im InDesign-Dokument vorhandenen Zeichen-, Absatz- und Objektformate auf. Zudem wird in der Tabelle für die Textformate die zugewiesene Sprache angezeigt.
+Der Tag-Report listet alle *Tags* (PDF-Tagstruktur, ePub-HTML-Elementnamen) für im InDesign-Dokument vorhandenen Zeichen-, Absatz- und Objektformate auf. Zudem wird in der Tabelle für die Textformate die zugewiesene Sprache angezeigt. Die Eigenschaft ARIA-Rolle ist mit der Version InDesign 2026 (21.0) für den ePub-Export hinzugekommen.
 
 [Vorschau des Export-Tag-Report auf vimeo](https://vimeo.com/1036510247)
 
