@@ -82,7 +82,13 @@ Der Artikel-Report bietet eine Auflistung aller im Artikelbedienfeld von InDesig
 
 [Vorschau des Artikel-Reports auf vimeo](https://vimeo.com/1044736860)
 
-Die Artikelfunktion in InDesign dient dazu, die Reihenfolge der Tag-Struktur von Inhalten in einem Dokument festzulegen. Im Artikelbedienfeld von InDesign kannst du definieren, welche Inhalte im Dokument getaggt werden und in welcher Reihenfolge. Damit stellst du sicher, dass die Inhalte in der richtigen Reihenfolge von Screenreader vorgelesen werden.
+Die Artikelfunktion in InDesign dient dazu, die Reihenfolge der Tag-Struktur von Inhalten in einem Dokument festzulegen. Im Artikelbedienfeld von InDesign kannst du definieren, welche Inhalte im Dokument getaggt werden und in welcher Reihenfolge. Damit stellst du sicher, dass die Inhalte im PDF-Dokument in der richtigen Reihenfolge von Screenreadern vorgelesen werden.
+
+Damit die Reihenfolge im Artikelpanel übernommen wird, muss sie Option `Panel-Flyout  → Artikel für Tagging-Reihenfolge in PDF verwenden` gesetzt sein. Eine Checkbox im Artikel-Abschnitt des Reports (Plugin-Panel) zeigt an, ob diese Option ausgewählt ist oder nicht. 
+
+Zudem kann für jeden Artikel über die Option `Panel-Flyout  → Artikeloptionen ... → Beim Exportieren berücksichtigen` im Artikel-Panel von InDesign festgelegt werden, ob der enthaltene Inhalt im exportieren PDF mit Tags ausgezeichnet wird. Ein rotes Label **Kein Tag-Export** im Report (Plugin-Panel) weist darauf hin, dass diese Option für den entsprechenden Artikel deaktiviert wurde, d.h. dessen Inhalt mit der Option **Artikel für Tagging-Reihenfolge in PDF verwenden** ohne Tags ins PDF exportiert wird.
+
+Für das gleiche Verhalten beim ePub-Export muss in den ePub-Exportoptionen die Option `Allgemein  → Inhalt → Reihenfolge: Wie Artikelbedienfeld` festgelegt werden.
 
 #### Überschriften
 
@@ -108,11 +114,53 @@ Die Überschriftenebenen werden über alle Artikel hinweg kontrolliert – in de
 
 Auflistung der im InDesign-Dokument enthaltenen Hyperlinks. Im ersten Feld wird der im Dokument angezeigte Text des Hyperlinks angezeigt, im zweiten Feld das hinterleget Ziel (URL, Anker, Seite, ...). Über einen Klick aufs erste Feld kannst du die Textstellen mit dem Hyperlink direkt anspringen.
 
-**Hinweis:**: Aus technischen Gründen kann der Alternativtext für Hyperlinks in InDesign derzeit nicht ausgelesen werden. (Benutzeroberfläche: Hyperlink bearbeiten → Barrierefreiheit) Expert:innen raten aber ohnehin von der Verwendung eher ab. Wenn möglich, sollten stattessen »sprechende Namen« für Hyperlinks verwendet werden. Davon profitieren alle Zielgruppen gleichermaßen. (Für Print können diese dann per Skript oder CSS in URL umwandelt werden.)
+**Hinweis:**: Aus technischen Gründen kann der Alternativtext für Hyperlinks in InDesign derzeit nicht ausgelesen werden. (Benutzeroberfläche: Hyperlink bearbeiten → Barrierefreiheit) Expertinnen raten aber ohnehin von der Verwendung eher ab. Wenn möglich, sollten stattessen »sprechende Namen« für Hyperlinks verwendet werden. Davon profitieren alle Zielgruppen gleichermaßen. (Für Print können diese dann per Skript oder CSS in URL umwandelt werden.)
 
 ### Text
 
 Im Text-Report wird auf mögliche Probleme im Zusammenhang mit Text hingewiesen. Auch hier gilt: Durch eine automatisierte Suche ist es nicht immer möglich, alle Problemstellen eindeutig zu ermitteln, bzw. werden auch Probleme gefunden, die möglicherweise gar keine sind. Überprüfe die Probleme einzeln, indem du über den Button `Suchen` an die betroffenen Textstellen im Dokument springst.
+
+### Report teilen (ab Version 2.0)
+
+Mit der Version 2.0 des Plugins Accessibility-4-InDesign kann der Report nicht nur via PDF, sondern auch über eine Webadresse geteilt, bearbeitet und wieder importiert werden. Das ist dann hilfreich, wenn du mit Kundinnen oder Dienstleisterinnen gemeinsam an einem Projekt arbeitest. Die Verknüpfung mit den Daten erfolgt dabei über die ID des Dokuments, z.B. `xmp.did:e7ded463-54bc-44a3-a307-31936d917cb9`. Im Panel wird diese Dokument-ID unter `Report → Metadaten → Allgemein → Dokument-ID` angezeigt und kann über das kleine Icon rechts daneben in die Zwischenablage kopiert werden.
+
+[Vorschau für Teilen-Funktion](https://vimeo.com/1113262434)
+
+#### Anwendung
+
+1. Gewünschtes InDesign-Dokument öffnen.
+2. `Teilen`-Button im Fuß des Plugins anklicken.
+
+Es erscheint eine Eingabeaufforderung für eine E-Mail-Adresse.
+
+3. E-Mail-Adresse für Anmeldung eingeben.
+
+Diese E-Mail-Adresse dient zu Anmeldung unter [document.report](https://document.report/panel). Als E-Mail kannst du deine eigene E-Mail-Adresse verwenden oder die deiner Kundinnen und Dienstleisterinnen. So können mehrere getrennte Accounts anlegen werden. Die Personen haben jeweils nur auf die Daten ihres Accounts Zugriff.
+
+(4.) Speichern der Anmeldedaten.
+
+Bei der ersten Verwendung einer E-Mail-Adresse erscheint nach der Eingabe ein Speicherdialog, mit dem du die Login-Daten auf deinem Rechner als Textdatei speichern kannst. In der Textdatei finden sich die URL und die Login-Daten für die Anmeldung.
+
+Unter [document.report](https://document.report/panel) können die Metadaten für das Dokument sowie die ALT-Texte der Bilder dann bearbeitet und gespeichert werden.
+
+#### Datenschutz
+
+Die geteilten Daten werden auf einem Server des Unternehmens [Infomaniak](https://www.infomaniak.com/de) in der Schweiz gespeichert. Deine Daten werden nicht an Dritte weitergegen. Bei Service-Anfragen kann der Plugin-Hersteller auf die geteilten Daten zugreifen. Du kannst deine Reports jederzeit nach Anmeldung unter [document.report](https://document.report/panel) löschen oder eine Löschung sämtlicher Daten beantragen. Der Zugang zu den Daten ist über ein Passwort geschützt. Teile trotzdem keine sensiblen Daten über diese Funktion. Jeder oder jede, der diese Anmeldedaten besitzt, kann die Daten einsehen. Bei Fragen wende dich bitte an der [Support](mail@document.report).
+
+### Daten importieren (ab Version 2.0)
+
+Über den `Importieren`-Button im Fuß des Plugins können die geänderten Daten wieder in das geöffnete InDesign-Dokument importiert werden. Es werden immer die Daten mit dem neuesten Datum auf [document.report](https://document.report/panel) abgerufen. Sind mehrere Einträge für dasselbe InDesign-Dokument vorhanden, kannst du über das Eingabefeld `Übersicht → Report → Bearbeitungsdatum` steuern, welche Daten importiert werden sollen. 
+
+#### Anwendung
+
+1. Das Dokument, von dem du die Daten geteilt hast, öffnen.
+2. Auf den Import-Button im Fuß des Plugins klicken. (siehe Screenshot)
+
+#### Hinweise
+
+- Wenn ein Dokument mit »Speicher unter ...« neu speichert wird, weist InDesign diesem Dokument eine neue ID zu. Damit der Import funktioniert, muss diese geänderte Dokument-ID unter [document.report](https://document.report/panel) für dieses Dokument aktualisiert werden: `Übersicht → Report → ID`. Die ID des aktiven Dokuments kannst du im Plugin-Panel unter `Report → Metadaten → Allgemein → Dokument-ID` kopieren. 
+- Wenn das InDesign-Dokument über IDML umgespeichert wird, geht die Verbindung zwischen den geteilten Daten und der Bilder verloren. Du kannst deinen Report aber jederzeit neu teilen.
+- Wenn ein Bild gelöscht und neu eingefügt oder eine Gruppe mit ALT-Text aufgelöst wird, geht die Verbindung zu den Daten auf [document.report](https://document.report/panel) verloren.
 
 ### Export als PDF
 
@@ -165,13 +213,14 @@ Die exportierten PDF- und ePub-Dokumente können nach dem Export mit darauf spez
 
 Automatisierte Prüfungen können nur einen Teil der Barrierefreiheit digitaler Inhalte abdecken. So können etwa keine sogenannten »Layout-Tabellen« erkannt werden, also Tabellen, die ausschließlich zum Zwecke des Layouts eingesetzt werden – ohne inhaltliche Bedeutung. Oder wenn Informationen ausschließlich durch Farbe kommuniziert werden. Um nur einige Beispiele zu nennen.
 
-Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichworte: praktische Barrierefreiheit, WCAG-Compliance)
+Deshalb gilt: Auch wenn im Report des Plugins in InDesign oder den Prüfungstools keine Fehler oder Warnungen angezeigt werden, bedeutet dies nicht, dass ein exportiertes PDF oder ePub alle Anforderungen für Barrierefreiheit erfüllt. (Stichwörter: praktische Barrierefreiheit, WCAG-Compliance)
 
 Eine manuelle, auf die Zielpersonen abgestimmte Prüfung ist jedenfalls angeraten.
 
 ## Bekannte Fehler
- 
-- Links in den Anmerkungen des Assistenten (Tab `Fragen`) öffnen nicht in einem externen Browser.[^2]
+
+- Report → Bilder: Bei sehr langen Wörtern in Alt- oder Actual-Texten wird das Bild neben dem Text nicht angezeigt. Lösung: Panel in der Breite aufziehen.
+- Ask → Assistent: Links in den Anmerkungen des Assistenten (Tab `Fragen`) öffnen nicht in einem externen Browser.[^2].
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
 

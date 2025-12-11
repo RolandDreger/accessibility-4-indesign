@@ -85,6 +85,12 @@ The article report provides a list of all articles added in the InDesign article
 
 The article function in InDesign is used to define the order of the tag structure of content in a document. In the InDesign article panel, you can define which content is tagged in the document and in which order. This ensures that the content is read aloud by screen readers in the correct order.
 
+To apply the order in the article panel, the option `Panel Flyout → Use articles for tagging order in PDF`**` must be selected. A checkbox in the article section of the report (plugin panel) indicates whether this option is selected or not.
+
+In addition, for each item, you can use the option `Panel Flyout → Item Options... → Include in Export` in the InDesign item panel to specify whether the content contained in the exported PDF should be tagged. A red **No tag export** label in the report (plugin panel) indicates that this option has been deactivated for the corresponding article, i.e., its content will be exported to the PDF without tags using the **Use article for tagging order in PDF** option.
+
+For the same behavior when exporting to ePub, the option `General → Content → Order: Like Article Panel` must be set in the ePub export options.
+
 #### Headlines
 
 The heading levels are checked across all articles - in the order in which the articles and their contained objects are added in the article control panel.
@@ -115,13 +121,57 @@ Listing of the hyperlinks contained in the InDesign document. The first field sh
 
 The text report points out possible problems in relation to text. The following also applies here: It is not always possible to clearly identify all problem areas using an automated search, or issues may be found that are not issues at all. Check the issues individually by using the `Search` button to jump to the relevant text passages in the document.
 
+### Share report (from version 2.0)
+
+With version 2.0 of the Accessibility-4-InDesign plugin, the report can also be shared, edited, and reimported via a web address. This is helpful when you are working on a project together with clients or service providers. The link to the data is the document ID, e.g., `xmp.did:e7ded463-54bc-44a3-a307-31936d917cb9`. In the panel, this document ID is displayed under `Report → Metadata → General → Document ID` and can be copied to the clipboard using the small icon to the right of it.
+
+[Vorschau für Teilen-Funktion](https://vimeo.com/1113262434)
+
+#### Usage
+
+1. Open the desired InDesign document.
+2. Click on the “Share” button at the bottom of the plugin.
+
+A prompt for an email address will appear.
+
+3. Enter the email address for registration.
+
+This email address is used to register at [document.report](https://document.report/panel). You can use your own email address or that of your customers and service providers. This allows you to create several separate accounts. Each person only has access to the data in their own account.
+
+(4.) Saving login details.
+
+When using an email address for the first time, a save dialog box will appear after you enter it, allowing you to save the login details on your computer as a text file. The text file contains the URL and login details for registration.
+
+At [document.report](https://document.report/panel), you can then edit and save the metadata for the document and the ALT texts for the images.
+
+#### Data protection
+
+The shared data will be stored on a server run by the company [Infomaniak](https://www.infomaniak.com/en) in Switzerland. Your data will not be passed on to third parties. The plugin creator can access the shared data for service requests. You can delete your reports at any time after logging in at [document.report](https://document.report/panel) or request that all data be deleted. Access to the data is password protected. However, please do not share any sensitive data via this function. Anyone who has this login information can view the data. If you have any questions, please contact [support](mail@document.report).
+
+### Importing data (from version 2.0)
+
+The changed data can be imported back into the open InDesign document using the `Import` button at the bottom of the plugin. Always the data with the latest date on [document.report](https://document.report/panel) is retrieved. If there are multiple entries for the same InDesign document, you can use the input field `Overview → Report → Edit date` to control which data should be imported.
+
+#### Usage
+
+1. Open the document from which you shared the data.
+2. Click on the import button at the bottom of the plugin.
+
+#### Notes
+
+- When a document is saved with “Save As...”, InDesign assigns a new ID to this document. For the import to work, this changed document ID must be updated for this document under [document.report](https://document.report/panel): `Overview → Report → ID`. You can copy the ID of the active document in the plugin panel under `Report → Metadata → General → Document ID`.
+- If the InDesign document is re-saved via IDML, the connection between the shared data and the images gets lost. However, you can share your report again at any time.
+- If an image is deleted and inserted again or a group with ALT text is ungrouped, the connection to the data on [document.report](https://document.report/panel) gets lost.
+
+
+
 ### Export as PDF
 
 The result of the report can be exported as a PDF file. Only those sections and entries that are visible in the panel are exported. This allows you to control exactly which information is to be included in the exported PDF by showing/hiding the sections and applying filters.
 
 The generated PDF for the report is saved in the plugin's temporary folder by default and then automatically opened in your standard PDF application. Alternatively, you can select the `Open save dialog` option in the plugin settings. This allows you to select an individual storage location for the PDF file.
 
-[Vorschau des PDF-Exports auf vimeo](https://vimeo.com/1053449077)
+[Preview of the PDF export on Vimeo](https://vimeo.com/1053449077)
 
 To create the report PDF, the [Adobe PDF Services API is used](https://developer.adobe.com/document-services/).
 
@@ -172,7 +222,8 @@ A manual check tailored to the target group is recommended in any case.
 
 ## Known issues
 
-- Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
+- Report → Images: For very long words in Alt or Actual texts, the image next to the text is not displayed. Solution: Expand the panel width.
+- Ask → Assistant: Links in the notes of the assistant (`Ask` tab) do not open in an external browser[^2].
 
 [^2]: [Open external url](https://forums.creativeclouddeveloper.com/t/shell-openexternal-url-with-error-messages/9185/4)
 
