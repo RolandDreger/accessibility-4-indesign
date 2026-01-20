@@ -34,5 +34,5 @@ To take part in the beta test or to stay up to date on the development of the pl
 ## Credits
 
 Thanks for the discussion, feedback and input to the following persons (in alphabetical order). If you need additional help with the production of accessible documents or training in this area, you can contact them.
-- Austria: [René Andritsch](https://reneandritsch.com/)
+- Austria: [René Andritsch](https://reneandritsch.com/), [Roman Gebath](https://e-dvertising.at)
 - Germany: [Rainer Klute](https://klute.io/), [Klaas Posselt](https://einmanncombo.de/), [Christoph Steffens](https://www.satzkiste.de/) 
