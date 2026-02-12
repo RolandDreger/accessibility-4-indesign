@@ -24,6 +24,8 @@ Für die PDF-Generierung nutzt das Plugin die [Adobe Document Services API](http
 
 Für die KI-Assistenz werden Ihre Anfragen über die OpenAI-API an [OpenAI](https://openai.com/) übermittelt. OpenAI verarbeitet diese Daten im Auftrag. Eine darüber hinausgehende Offenlegung oder Weitergabe Ihrer Daten erfolgt nicht.
 
+Die Funktion »Report teilen« erfolgt über die Internetadresse https://document.report. Diese Website wird vom Plugin-Ersteller betrieben und befindet sich auf einem Server des Unternehmens [Infomaniak](https://www.infomaniak.com/de) in der Schweiz. Die Daten werden nicht an Dritte weitergegen. Bei Service-Anfragen kann der Plugin-Hersteller auf die geteilten Daten zugreifen. Die eigenene Daten der übermittelten Reports können jederzeit nach Anmeldung unter [document.report](https://document.report/panel) gelöscht oder eine Löschung sämtlicher Daten beantragt werden. Der Zugang zu den Daten ist über ein Passwort geschützt.
+
 6. Datensicherheit
 
 Es werden technische und organisatorische Maßnahmen getroffen, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Manipulation zu schützen. Die Übertragung der Anfragen an OpenAI und der Daten für die PDF-Erstellung an Adobe erfolgt verschlüsselt über eine gesicherte API-Verbindung.

@@ -24,6 +24,8 @@ The plugin uses the [Adobe Document Services API](https://developer.adobe.com/do
 
 For AI assistance, your requests are transmitted to [OpenAI](https://openai.com/) via the OpenAI API. OpenAI processes this data on our behalf. Your data will not be disclosed or passed on beyond this.
 
+The feature “Share report” is accessed via the Internet address https://document.report. This website is operated by the plugin creator and is located on a server operated by the company [Infomaniak](https://www.infomaniak.com/de) in Switzerland. The data will not be passed on to third parties. The plugin manufacturer may access the shared data for service requests. You can delete your own data from the transmitted reports at any time after logging in at [document.report](https://document.report/panel) or request that all data be deleted. Access to the data is password-protected.
+
 6. Data security
 
 Technical and organizational measures are taken to protect your data from unauthorized access, loss or manipulation. The transmission of requests to OpenAI and the data for PDF creation to Adobe is encrypted via a secure API connection.
