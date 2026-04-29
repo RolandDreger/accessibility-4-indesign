@@ -6,7 +6,7 @@ Durch den Kauf, das Herunterladen oder die Nutzung dieser Software erklären Sie
 
 ## 1. Leistungsumfang
 
-Das Plugin *Accessibility for InDesign“* wird als universelles Berichtstool bereitgestellt. Es identifiziert potenzielle Probleme bei der Erstellung barrierefreier Dokumente (PDF und EPUB). Es dient ausschließlich zu Informationszwecken und stellt keine rechtliche, finanzielle oder technische Beratung dar. Die Software garantiert keine Einhaltung geltender Gesetze, Vorschriften oder Standards.
+Das Plugin *Accessibility for InDesign* wird als universelles Berichtstool bereitgestellt. Es identifiziert potenzielle Probleme bei der Erstellung barrierefreier Dokumente (PDF und EPUB). Es dient ausschließlich zu Informationszwecken und stellt keine rechtliche, finanzielle oder technische Beratung dar. Die Software garantiert keine Einhaltung geltender Gesetze, Vorschriften oder Standards.
 
 Der Anbieter übernimmt keine Gewähr dafür, dass die von der Software generierten Ergebnisse, Berichte oder Daten korrekt, vollständig oder für einen bestimmten Zweck geeignet sind. Die Software ist nicht für den Einsatz in geschäftskritischen oder risikoreichen Umgebungen vorgesehen, in denen Fehler zu erheblichen Schäden oder Verlusten führen könnten.
 
