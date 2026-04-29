@@ -20,8 +20,8 @@ The license purchased via Adobe Exchange (Stock and Marketplace) is a single use
 
 ## Terms of Service
 
-- [Accessibility-4-InDesign Terms of Service](./Terms_of_Service/accessibility-4-indesign_terms_of_service.en.txt) (English)
-- [Accessibility-4-InDesign Nutzungsbedingungen](./Terms_of_Service/accessibility-4-indesign_nutzungsbedingungen.de.txt) (Deutsch)
+- [Accessibility-4-InDesign Terms of Service](./Terms_of_Service/accessibility-4-indesign_terms_of_service.en.md) (English)
+- [Accessibility-4-InDesign Nutzungsbedingungen](./Terms_of_Service/accessibility-4-indesign_nutzungsbedingungen.de.md) (Deutsch)
 
 ## Privacy Policy
 
