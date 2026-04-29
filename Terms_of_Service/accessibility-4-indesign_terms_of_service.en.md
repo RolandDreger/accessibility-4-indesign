@@ -85,8 +85,8 @@ Vendor's collection and use of personal data in connection with the Software is 
 
 ## 12. Contact
 
-Roland Dreger
-Tempelgasse 5, 1020 Vienna
+Roland Dreger  
+Tempelgasse 5, 1020 Vienna  
 roland.dreger@ik.me
 
 

@@ -85,8 +85,8 @@ Sollte eine Bestimmung dieser Vereinbarung für ungültig oder nicht durchsetzba
 
 ## 12. Kontakt
 
-Roland Dreger
-Tempelgasse 5, 1020 Vienna
+Roland Dreger  
+Tempelgasse 5, 1020 Vienna  
 roland.dreger@ik.me
 
 
