@@ -1,6 +1,6 @@
 # Änderungsprotokoll
 
-# Version 2.1.6
+## Version 2.1.6
 
 Veröffentlichungsdatum: 1. Juni 2026
 
