@@ -2,7 +2,7 @@
 
 # Version 2.1.6
 
-1. Juni 2026
+Veröffentlichungsdatum: 1. Juni 2026
 
 - Leistungsverbesserungen
 - Ausblenden versteckter Bilder im Bericht
@@ -10,7 +10,7 @@
 
 ## Version 2.1.1
 
-14. Februar 2026
+Veröffentlichungsdatum: 14. Februar 2026
 
 - Funktion zum Teilen des Barrierefreiheitsberichts mit Teammitgliedern, Kunden oder Dienstleistern
 - ARIA-Rollen und Beschriftungen für Stile
@@ -21,7 +21,7 @@
 
 ## Version 1.0.0
 
-Erste Version. 22. Mai 2025
+Veröffentlichungsdatum: 22. Mai 2025
 
 ### Berichte
 

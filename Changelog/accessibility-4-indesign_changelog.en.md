@@ -2,7 +2,7 @@
 
 ## Version 2.1.6
 
-Jun 1, 2026
+**Release date:** Jun 1, 2026
 
 - Performance improvements
 - Exclude hidden images in the report
@@ -10,7 +10,7 @@ Jun 1, 2026
 
 ## Version 2.1.1
 
-Feb 14, 2026
+**Release date:** Feb 14, 2026
 
 - Feature to share accessibility report to team members, customers or service provider 
 - ARIA roles and labels for styles
@@ -21,7 +21,7 @@ Feb 14, 2026
 
 ## Version 1.0.0
 
-First Version. May 22, 2025
+**Release date:** May 22, 2025
 
 ### Reports
 
