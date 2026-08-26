@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.2.0
+
+Release Date: August 26, 2026
+
+- Service update for assistant (new API, new model, hyperlinks, ...)
+- Improved image display in the plugin panel
+
 ## Version 2.1.6
 
 **Release date:** Jun 1, 2026

@@ -1,5 +1,12 @@
 # Änderungsprotokoll
 
+## Version 2.2.0
+
+Veröffentlichungsdatum: 26. August 2026
+
+- Service-Update für Assistenten (neue API, neues Modell, Hyperlinks, ...)
+- Verbesserung der Bilddarstellung im Plugin-Panel
+
 ## Version 2.1.6
 
 Veröffentlichungsdatum: 1. Juni 2026
