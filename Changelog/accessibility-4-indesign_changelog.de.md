@@ -6,6 +6,8 @@ Veröffentlichungsdatum: 26. August 2026
 
 - Service-Update für Assistenten (neue API, neues Modell, Hyperlinks, ...)
 - Verbesserung der Bilddarstellung im Plugin-Panel
+- Warnmeldung bei der Verwendung des H-Tags (PDF-Export-Tag)
+- Optionsfeld für Bilder auf document.report (dekoratives Bild)
 
 ## Version 2.1.6
 

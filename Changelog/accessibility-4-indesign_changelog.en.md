@@ -6,6 +6,8 @@ Release Date: August 26, 2026
 
 - Service update for assistant (new API, new model, hyperlinks, ...)
 - Improved image display in the plugin panel
+- Warning message when using the H tag (PDF export tag)
+- Option field for images on document.report (decorative image)
 
 ## Version 2.1.6
 
